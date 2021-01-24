@@ -1,0 +1,83 @@
+body{
+    background-color: black;
+}
+
+
+.card-img-top{
+    animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+
+@-webkit-keyframes up-down{
+    0%{
+        transform: translateY(15px);
+    }
+    100%{
+        transform: translateY(-15px);
+    }
+}
+
+@-o-keyframes up-down{
+    0%{
+        transform: translateY(15px);
+    }
+    100%{
+        transform: translateY(-15px);
+    }
+}
+
+.square-image{
+    height: 400px;
+    position: absolute;
+    padding-top: 5em;
+    padding-left: 30em;
+    /* animation: rotate infinite 20s linear; */
+}
+
+/* @-webkit-keyframes rotate{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+} */
+
+.blog{
+     background-color: black;
+}
+
+@media screen and (max-width:1200px){
+    .blog{
+       
+        background-color: black;
+    }
+}
+@media screen and (max-width:400px){
+    .blog{
+       
+        background-color: green;
+    }
+}
+
+ #hlink :hover{
+    color: #c19f5f;
+}
+
+
+.carousal{
+    
+}
+@media all and (max-width:1600px){
+    .carousal{
+       padding-bottom: 16em;
+        
+    }
+   
+}
+@media all and (max-width:1200px){
+    .carousal{
+       padding-bottom: 2em;
+        
+    }
+}
+
